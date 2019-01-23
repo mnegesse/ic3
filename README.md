@@ -22,6 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+## Gem Used
 # CarrierWave
 
 This gem provides a simple and extremely flexible way to upload files from Ruby applications.
