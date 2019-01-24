@@ -29,7 +29,7 @@ This gem provides a simple and extremely flexible way to upload files from Ruby 
 It works well with Rack based web applications, such as Ruby on Rails.
 
 
-[How to render partials on specfic pages only](https://stackoverflow.com/questions/4637110/skip-before-filter-ignores-conditionals)
+[###How to render partials on specfic pages only](https://stackoverflow.com/questions/4637110/skip-before-filter-ignores-conditionals)
 
 [![Build Status](https://travis-ci.org/carrierwaveuploader/carrierwave.svg?branch=master)](http://travis-ci.org/carrierwaveuploader/carrierwave)
 [![Code Climate](https://codeclimate.com/github/carrierwaveuploader/carrierwave.svg)](https://codeclimate.com/github/carrierwaveuploader/carrierwave)
