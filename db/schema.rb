@@ -26,6 +26,8 @@ ActiveRecord::Schema.define(version: 5) do
     t.string "location"
     t.string "fee"
     t.integer "host_review_id"
+    t.integer "talent_id"
+    t.integer "talent_review_id"
     t.string "talent_needed"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -34,6 +36,7 @@ ActiveRecord::Schema.define(version: 5) do
   create_table "talent_reviews", force: :cascade do |t|
     t.string "reviews"
     t.integer "talent_id"
+    t.integer "host_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -45,6 +48,7 @@ ActiveRecord::Schema.define(version: 5) do
     t.string "location"
     t.string "fee"
     t.integer "talent_review_id"
+    t.integer "host_id"
     t.string "talent_offered"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

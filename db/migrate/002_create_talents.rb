@@ -7,6 +7,7 @@ class CreateTalents < ActiveRecord::Migration[5.2]
       t.string :location
       t.string :fee
       t.integer :talent_review_id
+      t.integer :host_id
       t.string 'talent_offered', array: true
 
       t.timestamps
