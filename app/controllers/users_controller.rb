@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   def index
+    @talents = Talent.all.reverse
   end
 
   def display
