@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 5) do
+ActiveRecord::Schema.define(version: 6) do
 
   create_table "host_reviews", force: :cascade do |t|
     t.string "reviews"
@@ -27,6 +27,12 @@ ActiveRecord::Schema.define(version: 5) do
     t.string "fee"
     t.integer "host_review_id"
     t.string "talent_needed"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "snippets", force: :cascade do |t|
+    t.string "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

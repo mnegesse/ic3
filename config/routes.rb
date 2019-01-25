@@ -19,7 +19,7 @@ get '/talent_list' => 'talents#show'
 
 post '/talent_filter' => 'talents#create'
 
-get '/talent_filter' => 'talents#show'
+get '/talent_filter' => 'talents#profile'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
