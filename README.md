@@ -22,10 +22,14 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+## Gem Used
 # CarrierWave
 
 This gem provides a simple and extremely flexible way to upload files from Ruby applications.
 It works well with Rack based web applications, such as Ruby on Rails.
+
+
+[How to render partials on specfic pages only](https://stackoverflow.com/questions/4637110/skip-before-filter-ignores-conditionals)
 
 [![Build Status](https://travis-ci.org/carrierwaveuploader/carrierwave.svg?branch=master)](http://travis-ci.org/carrierwaveuploader/carrierwave)
 [![Code Climate](https://codeclimate.com/github/carrierwaveuploader/carrierwave.svg)](https://codeclimate.com/github/carrierwaveuploader/carrierwave)
@@ -35,6 +39,7 @@ It works well with Rack based web applications, such as Ruby on Rails.
 
 search filter
 https://www.justinweiss.com/articles/search-and-filter-rails-models-without-bloating-your-controller/
+<<<<<<< HEAD
 
 
 
@@ -55,3 +60,5 @@ https://www.justinweiss.com/articles/search-and-filter-rails-models-without-bloa
     <%= f.file_field :image %>
   </div>
 end
+=======
+>>>>>>> 934e9bb4ec110fb889ad78ad20492a0087f9ca1f

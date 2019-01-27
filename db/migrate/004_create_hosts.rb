@@ -7,6 +7,8 @@ class CreateHosts < ActiveRecord::Migration[5.2]
       t.string :location
       t.string :fee
       t.integer :host_review_id
+      t.integer :talent_id
+      t.integer :talent_review_id
       t.string 'talent_needed', array: true
 
       t.timestamps

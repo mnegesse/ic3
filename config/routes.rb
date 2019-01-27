@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'hosts/index'
+  get 'hosts/index' => 'hosts#index'
 #   get 'users/index'
 #   get 'users/display'
 #   get 'users/replace'
