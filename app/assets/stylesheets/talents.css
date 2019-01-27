@@ -4,20 +4,21 @@
     width:85%;
     height:900px;
     margin:0 auto;
-    background:yellow;
+    /* background:yellow; */
 }
 #talent_lists_format_child_div{
-    width:100%;
+    width:97%;
     height:100%;
     /* background:purple; */
+    margin:0 auto;
 }
 .talent_lists_child_div{
-    width:300px;
+    width:25%;
     height:27%;
     background:rgba(0,0,255,0.2);
     border-radius:5px;
     box-shadow:0px 5.5px 10px 0.5px rgba(0,0,0,0.4);
-    margin:0px 20px 50px 0px;
+    margin:0px 0px 4% 4%;
     float:left;
 }
 
